@@ -1,0 +1,125 @@
+.nav-header {
+    .header-top {
+        background-color: $color-primary !important;
+        height: 95px;
+        padding: 20px 10px 15px;
+    }
+
+    .header-logo .brand svg {
+        width: 396px;
+        height: 60px;
+        margin: 10px auto 0;
+        fill: $color-white;
+    }
+
+    .header-top .header-react button::after{
+        content: "";
+        width: 8px;
+        height: 14px;
+        display: inline-block;
+        margin-left: 10px;
+        background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg) center / contain no-repeat;
+    }
+
+    .header-top {
+        .header-react button.btn.btn-white {
+            background-color: white;
+            border: 0;
+            outline: none;
+            border-radius: 0;
+            color: #f72210;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 0.2rem .6rem;
+        }
+    }
+    .header-top {
+        .header-react button.btn.text-white {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1.1em;
+            letter-spacing: -0.05rem;
+            padding: 0;
+            margin-right: 0;
+        }
+    }
+    .header-nav-bottom {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #f4f5f6;
+        padding-right: 160px;
+        position: relative;
+        display: block;
+        z-index: 1;
+    }
+    .header-nav-bottom::before {
+        content: "";
+        width: 82px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #f72210;
+        border-left: 12px solid white;
+        border-top: 13px solid #f72210;
+    }
+    .header-nav-bottom .header-search-form {
+        position: absolute;
+        width: 60px;
+        height: 54px;
+        top: 0;
+        right: 102px;
+        color: rgba(0,0,0,.55);
+        background-color: white;
+        border: none;
+        outline: none;
+    }
+    .header-nav-bottom .header-form-label {
+        background: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 18px;
+        right: 82px;
+        font-size: 0;
+    }
+
+    
+
+    .header-nav-bottom .header-search-form:focus {
+        width: calc(100vw - 132px);
+    }
+
+    .header-nav-bottom .header-search-form:focus::placeholder {
+        color: transparent;
+    }
+
+   .bg-light {
+       background-color: white !important;
+    }
+
+    .header-top .header-logo {
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(0,0,0);
+        font-size: 1.095em;
+        font-weight: 700;
+        border-left: 1px solid #d9d9d9;
+        padding: 0.2rem 1.3rem;
+        letter-spacing: -0.05rem;
+    }
+    
+    .navbar-light .navbar-nav .nav-item:first-child .nav-link {
+        border-left: 0;
+        padding-left: 0.3rem;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+        padding-right: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: $color-primary;
+    }
+}

@@ -90,6 +90,9 @@ h6 {
 .nav-header .header-nav-bottom .header-search-form:focus {
   width: calc(100vw - 132px);
 }
+.nav-header .header-nav-bottom .header-search-form:focus::placeholder {
+  color: transparent;
+}
 .nav-header .bg-light {
   background-color: white !important;
 }
