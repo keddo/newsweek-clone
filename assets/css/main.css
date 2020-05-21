@@ -23,9 +23,9 @@ h6 {
   fill: #fff;
 }
 .nav-header .header-top .header-react button::after {
+  content: "";
   width: 8px;
   height: 14px;
-  content: "";
   display: inline-block;
   margin-left: 10px;
   background: url(https://g.newsweek.com/www/images/icon-arrow-right-red.svg) center/contain no-repeat;
@@ -41,9 +41,79 @@ h6 {
   padding: 0.2rem 0.6rem;
 }
 .nav-header .header-top .header-react button.btn.text-white {
-  color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: -0.05rem;
+  padding: 0;
+  margin-right: 0;
+}
+.nav-header .header-nav-bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f4f5f6;
+  padding-right: 160px;
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+.nav-header .header-nav-bottom::before {
+  content: "";
+  width: 82px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+.nav-header .header-nav-bottom .header-search-form {
+  position: absolute;
+  width: 60px;
+  height: 54px;
+  top: 0;
+  right: 102px;
+  color: rgba(0, 0, 0, 0.55);
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.nav-header .header-nav-bottom .header-form-label {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 18px;
+  right: 82px;
+  font-size: 0;
+}
+.nav-header .header-nav-bottom .header-search-form:focus {
+  width: calc(100vw - 132px);
+}
+.nav-header .bg-light {
+  background-color: white !important;
+}
+.nav-header .header-top .header-logo {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+.nav-header .navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.095em;
+  font-weight: 700;
+  border-left: 1px solid #d9d9d9;
+  padding: 0.2rem 1.3rem;
+  letter-spacing: -0.05rem;
+}
+.nav-header .navbar-light .navbar-nav .nav-item:first-child .nav-link {
+  border-left: 0;
+  padding-left: 0.3rem;
+}
+.nav-header .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+.nav-header .navbar-light .navbar-nav .nav-link:hover {
+  color: #f72210;
 }
 
 /*# sourceMappingURL=main.css.map */
