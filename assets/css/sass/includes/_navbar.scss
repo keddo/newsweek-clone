@@ -103,10 +103,10 @@
     }
     .navbar-light .navbar-nav .nav-link {
         color: rgb(0,0,0);
-        font-size: 1.095em;
         font-weight: 700;
         border-left: 1px solid #d9d9d9;
-        padding: 0.2rem 1.3rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
         letter-spacing: -0.05rem;
     }
     
@@ -121,5 +121,25 @@
 
     .navbar-light .navbar-nav .nav-link:hover {
         color: $color-primary;
+    }
+   
+    .header-logo.fixed .brand svg {
+        width: 132px;
+        height: 20px;
+        margin: 0 auto 0 0;
+    }
+
+    ul.navbar-nav {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 24px;
+    font-family: "Roboto Condensed";
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+    li.nav-item {
+        flex-grow: 1;
+        flex-shrink: 1;
     }
 }
