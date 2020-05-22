@@ -151,7 +151,7 @@ h6 {
   color:rgba(255, 255, 255, 0.7) !important;
 }
 @media (max-width: 992px) {
-  .container-fluid {
+  .nav-header .container-fluid {
     padding: 0;
   }
   .nav-header .header-top {
@@ -163,6 +163,7 @@ h6 {
     background-color: #f72210 !important;
     height: 50px;
     padding: 0 10px;
+    z-index: 99999;
   }
   .nav-header .header-logo .brand svg {
     width: 132px;
