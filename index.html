@@ -21,7 +21,7 @@
     <header class="nav-header">
       <div class="container-fluid">
           <div class="header-top d-flex justify-content-between">
-           <div class="weather-info d-flex flex-column justify-content-between">
+           <div class="weather-info flex-column justify-content-between d-none d-lg-flex">
                <div class="weather-info-instant text-white">
                 <span class="cloud">
                     <i class="fas fa-cloud text-white"></i>
@@ -48,10 +48,10 @@
            <div class="header-react align-self-end">
                <button class="btn text-white">Login</button>
                <button class="btn btn-white">Subscribe</button>
-               <span class="header-humberger d-none"><i class="fas fa-bars fa-2x text-light"></i></span>
+               <span class="header-humberger d-md-inline-block d-lg-none"><i class="fas fa-bars fa-2x text-dark"></i></span>
            </div>
           </div>
-          <nav class="header-nav-bottom navbar navbar-expand-md navbar-light bg-light">
+          <nav class="header-nav-bottom navbar navbar-expand-md d-none d-lg-block navbar-light bg-light">
             <form action="#" class="form-inline">
                 <label for="inline-form-label" class="header-form-label">Search</label>
                 <input type="text" class="header-search-form" placeholder="Search" id="inline-form-label">

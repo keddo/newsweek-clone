@@ -136,5 +136,40 @@ h6 {
   flex-grow: 1;
   flex-shrink: 1;
 }
+.nav-header .header-nav-bottom .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  text-align: center;
+}
+.nav-header .header-react.align-self-end {
+  display: flex;
+}
+.nav-header .header-react > * {
+  padding: 0 1rem;
+}
 
+.text-dark {
+  color:rgba(255, 255, 255, 0.7) !important;
+}
+@media (max-width: 992px) {
+  .container-fluid {
+    padding: 0;
+  }
+  .nav-header .header-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f72210 !important;
+    height: 50px;
+    padding: 0 10px;
+  }
+  .nav-header .header-logo .brand svg {
+    width: 132px;
+    height: 20px;
+  }
+  .nav-header .header-react {
+    padding-bottom: 0.5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
