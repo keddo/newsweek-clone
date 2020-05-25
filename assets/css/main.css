@@ -150,11 +150,11 @@ h6 {
   color: rgba(255, 255, 255, 0.7) !important;
 }
 
-main .block-title {
+.block-title {
   color: rgba(3, 3, 3, 0.4);
 }
 
-main .block-title a {
+.block-title a {
   color: rgba(3, 3, 3, 0.4);
 }
 
@@ -262,6 +262,7 @@ img.d-flex.mr-3 {
   margin-top: 4px;
 }
 
+.block-nw-home-featured-more,
 .the-debate .block-nw {
   position: relative;
   padding-top: 39px !important;
@@ -293,6 +294,16 @@ img.d-flex.mr-3 {
 .content-right {
   width: 75%;
   margin-left: 1rem;
+}
+
+.block-nw-home-featured-more article {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.content-right h4 a {
+  color: #000;
 }
 
 @media (max-width: 576px) {
