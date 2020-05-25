@@ -154,14 +154,18 @@ main .block-title {
   color: rgba(3, 3, 3, 0.4);
 }
 
-.main .article-wrap {
+main .block-title a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+main .article-wrap {
   position: relative;
 }
 
 main .article-category {
   position: absolute;
   left: 0;
-  top: 245px;
+  bottom: 0;
   z-index: 3;
 }
 
@@ -174,12 +178,122 @@ main .text-danger {
 }
 
 .article-summary {
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.3em;
   color: #131313;
 }
 
+.the-debate .debate-item.bt-1 {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  border-top: 4px solid #f92859;
+}
+
+.the-debate .debate-item.bb-2 {
+  border-bottom: 4px solid #1c87fb;
+  padding-bottom: 12px;
+}
+
+.deco {
+  position: relative;
+}
+
+img.d-flex.mr-3 {
+  width: 70px;
+  height: 70px;
+}
+
+.the-debate .deco::before,
+.the-debate .deco::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #d9d9d9;
+  height: 1px;
+  left: 0;
+  right: 0;
+}
+
+.the-debate .deco::before {
+  top: calc(50% - 2px);
+}
+
+.the-debate .deco::after {
+  top: 50%;
+}
+
+.c-vs {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  border-radius: 50%;
+  text-align: center;
+  margin: 6px auto;
+  color: #d6d6d6;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+
+.subfeature2 {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.subfeature2 .image {
+  margin-right: 15px;
+}
+
+.subfeature2 .info {
+  flex: 1;
+}
+
+.subfeature2 .info a {
+  color: inherit;
+}
+
+.subfeature2 .byline {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.the-debate .block-nw {
+  position: relative;
+  padding-top: 39px !important;
+}
+
+.block-ibtmedia-special-item.first-card {
+  position: relative;
+}
+
+.block-ibtmedia-special-item.first-card::before,
+.the-debate .block-nw::before {
+  content: "";
+  display: block;
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  right: -15px;
+}
+
+.card .article-category {
+  color: #1c87fb;
+}
+
+@media (max-width: 576px) {
+  .the-debate .image img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
 @media (max-width: 992px) {
   .nav-header .container-fluid {
     margin-top: 4rem;
