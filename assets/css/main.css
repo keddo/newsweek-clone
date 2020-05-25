@@ -267,10 +267,12 @@ img.d-flex.mr-3 {
   padding-top: 39px !important;
 }
 
+.block-nw-home-featured-more,
 .block-ibtmedia-special-item.first-card {
   position: relative;
 }
 
+.block-nw-home-featured-more::before,
 .block-ibtmedia-special-item.first-card::before,
 .the-debate .block-nw::before {
   content: "";
@@ -286,6 +288,11 @@ img.d-flex.mr-3 {
 
 .card .article-category {
   color: #1c87fb;
+}
+
+.content-right {
+  width: 75%;
+  margin-left: 1rem;
 }
 
 @media (max-width: 576px) {
