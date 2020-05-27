@@ -137,6 +137,7 @@ h6 {
 }
 .nav-header .header-react > * {
   padding: 0 1rem;
+  align-self: center;
 }
 .nav-header .text-dark {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -181,7 +182,10 @@ h6 {
   }
 }
 .block-title {
-  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 11px;
+  text-transform: uppercase;
+  color: rgba(12, 11, 11, 0.8);
 }
 
 .block-title a {
@@ -292,6 +296,7 @@ img.d-flex.mr-3 {
   margin-top: 4px;
 }
 
+.subscribe-block > div > div,
 .block-nw-home-featured-more,
 .the-debate .block-nw {
   position: relative;
@@ -304,6 +309,7 @@ img.d-flex.mr-3 {
   position: relative;
 }
 
+.subscribe-block > div > div::before,
 .block-nw-editors-pick::before,
 .culture-stories::before,
 .block-nw-home-featured-more::before,
@@ -318,6 +324,11 @@ img.d-flex.mr-3 {
   top: 0;
   left: -15px;
   right: -15px;
+}
+
+.subscribe-block > div > div::before {
+  left: 0;
+  right: 0;
 }
 
 .card .article-category {
@@ -417,6 +428,13 @@ img.d-flex.mr-3 {
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
+}
+
+.article-wrap > a,
+.image > a,
+.article-img a {
+  display: block;
+  line-height: 0;
 }
 
 .newsletter-signup .form-submit {
@@ -538,6 +556,151 @@ img.d-flex.mr-3 {
   color: black;
 }
 
+.section-picks .block-title {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.section-picks a {
+  color: inherit;
+}
+
+.section-picks li .image img {
+  width: 120px;
+}
+
+.section-picks li .info {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+  padding-left: 20px;
+}
+
+.subscribe-block .block-title {
+  color: #f72210;
+}
+
+.subscribe-block .mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.subscribe-block .mag-thumb.current {
+  position: absolute;
+  top: 13px;
+  right: 80px;
+}
+
+.subscribe-block .f1 {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.subscribe-block h3 {
+  line-height: 28px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+.subscribe-block p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.subscribe-block .btn-danger {
+  position: relative;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  background-color: #f72310;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  border-radius: 3px;
+}
+
+.subscribe-block .btn-danger::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  display: inline-block;
+  margin-left: 9px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.subscribe-block .free-signup .form-submit {
+  margin-top: 11px;
+}
+
+.subscribe-block .free-signup input {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+}
+
+.free-signup .form-submit {
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.page-footer .brand svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.page-footer .copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.page-footer .social li:first-child {
+  margin-left: 0;
+}
+
+.page-footer .social li {
+  margin-left: 10px;
+}
+
+.page-footer .footer-links {
+  flex-wrap: wrap;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.page-footer .footer-links li {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.page-footer .footer-links a {
+  color: inherit;
+}
+
 @media (max-width: 576px) {
   .the-debate .image img {
     width: 80px !important;
@@ -559,6 +722,38 @@ img.d-flex.mr-3 {
     top: -30px;
     left: -15px;
     right: -15px;
+  }
+
+  .subscribe-block .col-l {
+    background-color: #f4f5f6;
+    padding: 24px 20px 20px;
+  }
+
+  .subscribe-block .col-l .image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    height: 160px;
+    position: relative;
+  }
+
+  .page-footer {
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 30px;
+    background-color: white;
+  }
+
+  .page-footer::before {
+    content: "";
+    display: block;
+    height: 18px;
+    background-color: #f4f5f7;
+    border-top: 1px solid #e2e2e2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 @media (max-width: 992px) {
