@@ -11,6 +11,10 @@ h6 {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
+body {
+  max-width: 1310px;
+}
+
 .nav-header .header-top {
   background-color: #f72210 !important;
   height: 95px;
@@ -558,8 +562,8 @@ img.d-flex.mr-3 {
 
 .subscribe-block .mag-thumb.current {
   position: absolute;
-  top: 13px;
-  right: 80px;
+  top: 1rem;
+  left: 1.5rem;
 }
 
 .subscribe-block .f1 {
@@ -670,6 +674,10 @@ img.d-flex.mr-3 {
   color: inherit;
 }
 
+.subscribe-block .mag-thumb.prev {
+  position: relative;
+}
+
 @media (max-width: 576px) {
   .the-debate .image img {
     width: 80px !important;
@@ -768,6 +776,15 @@ img.d-flex.mr-3 {
   .culture-item {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .culture-stories {
+    padding-top: 0 !important;
+  }
+
+  .culture-items {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 @media (max-width: 992px) {
