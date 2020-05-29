@@ -11,12 +11,6 @@ h6 {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
-body {
-  width: 100%;
-  max-width: 1310px;
-  margin: auto;
-}
-
 .nav-header .header-top {
   background-color: #f72210 !important;
   height: 95px;
@@ -775,6 +769,16 @@ img.d-flex.mr-3 {
   }
 }
 @media (min-width: 768px) {
+  h3 {
+    font-size: 24px !important;
+    line-height: 24px !important;
+  }
+
+  .magazine h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
   .order-2 {
     order: -1;
   }
@@ -850,6 +854,16 @@ img.d-flex.mr-3 {
   .section-picks ul li:last-of-type {
     border-bottom: 0 !important;
   }
+
+  .page-footer .footer-links li:not(:last-of-type) {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .article-summary {
+    font-size: 1em;
+  }
 }
 .subscribe-block .col-l .image {
   position: relative;
@@ -888,6 +902,11 @@ img.d-flex.mr-3 {
   }
 }
 @media (min-width: 993px) {
+  .container-fluid {
+    max-width: 1310px;
+    padding: 0 30px;
+  }
+
   .nav-header .container-fluid {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -897,6 +916,24 @@ img.d-flex.mr-3 {
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
   }
+}
+main a:hover {
+  text-decoration-color: #f72210;
+}
+
+.culture-items a:hover {
+  text-decoration: none;
+}
+
+.the-debate .block-nw a:hover,
+.the-debate .media-body a:hover {
+  text-decoration: none;
+  color: #f92859 !important;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #000 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
