@@ -17,3 +17,15 @@ $(window).scroll( function() {
         $(".header-humberger").addClass('d-lg-none');
       }
     });
+
+    
+let sticky = $(window).scrollTop();
+console.log(sticky);
+$(window).scroll(function(){
+    if(sticky >= 2205 && sticky <= 4148) {
+        $(".add-position").addClass("fixed-content");
+      }
+   else {
+       $(".add-position").removeClass("fixed-center");
+    }
+})
