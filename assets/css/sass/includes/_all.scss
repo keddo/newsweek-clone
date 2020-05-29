@@ -906,6 +906,7 @@ img.d-flex.mr-3 {
     height: 50px;
     align-items: center;
     padding: 0 10px;
+    transition: all .4 ease-in-out;;
     z-index: 99999;
 }
 
@@ -955,6 +956,10 @@ img.d-flex.mr-3 {
     .d-pt {
         padding-top: 1.5rem!important;
         padding-bottom: 1.5rem!important;
+    }
+
+    .nav-header .header-nav-bottom .header-search-form:focus {
+        width: calc(100vw - 132px - 30px);
     }
 }
 
