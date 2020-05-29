@@ -149,6 +149,10 @@ h6 {
   overflow: hidden;
 }
 
+.section-picks h4 {
+  color: #000;
+}
+
 @media (max-width: 479px) {
   .btn {
     align-self: center;
@@ -864,11 +868,34 @@ img.d-flex.mr-3 {
   .article-summary {
     font-size: 1em;
   }
+
+  .section-picks h4 {
+    font-size: 1.2rem;
+  }
 }
 .subscribe-block .col-l .image {
   position: relative;
   padding-bottom: 14px;
   padding-right: 90px;
+}
+
+.nav-header .header-top.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #f72210 !important;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 99999;
+}
+
+.nav-header .fixed .header-logo .brand svg {
+  width: 132px;
+  height: 20px;
+  margin: 0;
 }
 
 @media (max-width: 992px) {
