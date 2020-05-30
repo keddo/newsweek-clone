@@ -835,18 +835,9 @@ footer a:hover {
     padding-right: 0;
   }
 
-  .culture-stories {
-    padding-top: 0 !important;
-  }
-
   .culture-items {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .section-picks article.py-3 {
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
   }
 
   .form-img img {
@@ -856,11 +847,6 @@ footer a:hover {
   .subscribe-block .f1 {
     width: 80%;
     text-align: left;
-  }
-
-  .subscribe-block .col-l .image.last {
-    padding-right: 0 !important;
-    padding-bottom: 0;
   }
 
   .col-lg-6.border-bottom {
@@ -972,16 +958,6 @@ footer a:hover {
   .container-fluid {
     max-width: 1310px;
     padding: 0 30px;
-  }
-
-  .nav-header .container-fluid {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .d-pt {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important;
   }
 
   .nav-header .header-nav-bottom .header-search-form:focus {
