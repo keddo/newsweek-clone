@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Open Live Demo](https://rawcdn.githack.com/keddo/newsweek-clone/f316f64d5c3c0ebce22d9d582358d068f9b77a62/index.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/newsweek-clone/01b99b35165af577bc150421a7e8e4def1d53f58/index.html)
 
 
 ## Getting Started
