@@ -9,13 +9,13 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML,
-- CSS,
+- CSS[SASS]
 - Bootstrap,
 - Javascript
 
 ## Live Demo
 
-[Open Live Demo](https://rawcdn.githack.com/keddo/thenextweb-clone/1eb07608b844a8122134af6a2870275e7a22b7a7/index.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/newsweek-clone/de5f31adb87e3412212ed04ee20ec903baf4e72b/index.html)
 
 
 ## Getting Started
