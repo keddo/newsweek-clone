@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, "Montserrat", sans-serif !important;
+  font-family: Arial, Helvetica, "Montserrat", sans-serif;
 }
 
 h1,
@@ -8,11 +8,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .nav-header .header-top {
-  background-color: #f72210 !important;
+  background-color: #f72210;
   height: 95px;
   padding: 20px 10px 15px;
 }
@@ -109,7 +109,7 @@ h6 {
 }
 
 .nav-header .bg-light {
-  background-color: white !important;
+  background-color: white;
 }
 
 .nav-header .header-top .header-logo {
@@ -174,7 +174,7 @@ h6 {
 }
 
 .nav-header .text-dark {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .row {
@@ -206,7 +206,7 @@ h6 {
   }
 
   .nav-header .header-top .header-react button.btn.btn-white {
-    padding: 0.4rem !important;
+    padding: 0.4rem;
   }
 
   .brand svg {
@@ -258,7 +258,7 @@ main .article-category {
 }
 
 main .text-danger {
-  color: #f72210 !important;
+  color: #f72210;
 }
 
 .article-summary {
@@ -395,7 +395,7 @@ footer a:hover {
 
 .culture-stories {
   position: relative;
-  padding-top: 39px !important;
+  padding-top: 39px;
 }
 
 .culture-items {
@@ -735,7 +735,7 @@ footer a:hover {
   .block-nw-home-featured-more,
   .the-debate .block-nw {
     position: relative;
-    padding-top: 39px !important;
+    padding-top: 39px;
   }
 
   .block-nw-editors-pick,
@@ -817,8 +817,8 @@ footer a:hover {
 
 @media (min-width: 768px) {
   h3 {
-    font-size: 24px !important;
-    line-height: 24px !important;
+    font-size: 24px;
+    line-height: 24px;
   }
 
   .magazine h5 {
@@ -873,7 +873,7 @@ footer a:hover {
   }
 
   .subscribe-block .col-l .image {
-    padding-right: 25px !important;
+    padding-right: 25px;
   }
 
   .section-picks .block-title {
@@ -896,7 +896,7 @@ footer a:hover {
   }
 
   .section-picks ul li:last-of-type {
-    border-bottom: 0 !important;
+    border-bottom: 0;
   }
 
   .page-footer .footer-links li:not(:last-of-type) {
@@ -926,7 +926,7 @@ footer a:hover {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #f72210 !important;
+  background-color: #f72210;
   height: 50px;
   align-items: center;
   padding: 0 10px;
@@ -952,7 +952,7 @@ footer a:hover {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #f72210 !important;
+    background-color: #f72210;
     height: 50px;
     padding: 0 10px;
     z-index: 99999;
@@ -990,7 +990,7 @@ footer a:hover {
 }
 
 .the-debate .block-nw a:hover,
-.the-debate .media-body a:hover {
+.the-debate .media a:hover {
   text-decoration: none;
   color: #f92859 !important;
 }
