@@ -17,6 +17,15 @@ h6 {
   padding: 20px 10px 15px;
 }
 
+.page-footer .brand svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
 .nav-header .header-logo .brand svg {
   width: 396px;
   height: 60px;
@@ -947,15 +956,6 @@ footer a:hover {
     height: 50px;
     padding: 0 10px;
     z-index: 99999;
-  }
-
-  .page-footer .brand svg {
-    display: block;
-    width: 236px;
-    height: 36px;
-    margin-right: 15px;
-    margin-bottom: 12px;
-    fill: #f72210;
   }
 
   .nav-header .header-logo .brand svg {
